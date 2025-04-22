@@ -9,17 +9,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>ARIA Role Implementation</h1>
-	<nav>
-		<a href="#Home" >Home</a>
-		<a href="#About" >About</a>
-	</nav>
-	<img src = "" alt = "logo">
-	<ul>
-		<li>Fruits</li>
-		<li>Vegetables</li>
-		<li>Dairy Products</li>
-	</ul>
+	<nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1 role="heading">John Doe's Portfolio</h1>
+
+  <!-- Profile Image -->
+  <img role="img" src="profile.jpg" alt="Portrait of John Doe smiling" />
+
+  <!-- Description -->
+  <p id="about">Hi! I'm John, a passionate web developer focused on building accessible, user-friendly websites.</p>
+
+  <!-- Project List -->
+  <h2 role="heading" id="projects">Projects</h2>
+  <ul role="list">
+    <li role="listitem">Responsive Portfolio Website</li>
+    <li role="listitem">E-commerce Shopping Cart</li>
+    <li role="listitem">Real-time Chat App</li>
+  </ul>
 	
 
 
